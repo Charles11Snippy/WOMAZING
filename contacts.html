@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- TITLE -->
+    <title>WOMAZING</title>
+    <!-- FONTS -->
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap" rel="stylesheet">
+    <!-- DESCRIPTION -->
+    <meta name="description" content="Магия в деталях">
+    <meta name="keywords" content="Одежда,женское,свитшот,футболка,Магия в деталях,бренд,купальник,каяество,скорость,ответственность,USA,Glow,Sweet Shot,Вумейзинг,WOMAZING,Womazing,woman,пальто,кардиган,доставка,женщина">
+    <!-- FAVICON -->
+    <meta name="Theme color" content="#F1EADC">
+    <link rel="apple-touch-icon" href="img/touch-icon.svg">
+    <link rel="shortcut icon" href="img/Favicon.svg">
+    <!-- OG TAGS -->
+    <meta property="og:title" content="WOMAZING">
+	<meta property="og:description" content="Магия в деталях">
+	<meta property="og:type" content="article">
+	<meta property="og:image" content="https://site-name.com/img/preview.png">
+	<meta property="og:site_name" content="WOMAZING">
+    <!-- CSS-Bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <!-- HEADER START -->
+    <header class="header" id="header">
+        <div class="container">
+            <div class="row">
+                <div class="col-4 col-lg-3">
+                    <a href="index.html" class="logo d-block"></a>
+                </div>
+                <div class="col-2 col-lg-5">
+                    <nav class="menu-nav menu-nav-up  align-items-center">
+                        <ul class="menu d-lg-flex mx-auto justify-content-between" id="menu">
+                            <li class="menu-item menu-item__burger">
+                                <a href="index.html" class="nav-bar__btn main_btn" id="nav-bar__btn">
+                                    Главная
+                                </a>
+                            </li>
+                            <li class="menu-item menu-item__burger">
+                                <a href="shop.html" class="nav-bar__btn shop_btn" id="nav-bar__btn">
+                                    Магазин
+                                </a>
+                            </li>
+                            <li class="menu-item menu-item__burger">
+                                <a href="about.html" class="nav-bar__btn brand_btn" id="nav-bar__btn">
+                                    О бренде
+                                </a>
+                            </li>
+                            <li class="menu-item menu-item__burger">
+                                <a href="contacts.html" class="nav-bar__btn contacts_btn active" id="nav-bar__btn">
+                                    Контакты
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-3 offset-1 offset-sm-2 col-lg-3 offset-lg-0">
+                    <ul class="tel-menu d-flex ms-auto align-items-center">
+                        <li class="tel-menu__item ms-auto">
+                            <a href="#" class="phone_modal d-block " id="phone_modal"></a>
+                        </li>
+                        <li class="tel-menu__item d-none d-lg-block">
+                            <a href="tel:+74958235412" class="number ">
+                                +7 (495) 823-54-12
+                            </a>
+                        </li>
+                        <li class="tel-menu__item burger d-lg-none">
+                            <button type="button" class="burger_btn" id="burger_btn">
+
+                            </button>
+                        </li>
+                    </ul>
+                    
+                </div>
+                <div class="col-2 col-sm-1">
+                    <div class="cart-wrp ms-auto">
+                    <a href="cart.html" class="cart d-block ms-auto"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="wrapp-modal">
+                <div class="overlay" id="overlay"></div>
+                <div class="modal-window" id="modal-window">
+                    <button type="button" class="exit_btn ms-auto" id="exit_btn"></button>
+                    <h3 class="form-title">
+                        Заказать обратный звонок
+                    </h3>
+                    <form action="form/mail.php" class="form-book__1 form  form-val d-flex flex-column" id="form-book__1">
+                        <input type="text" class="form-book__input" placeholder="Имя" name="firstName">
+                        <input type="text" class="form-book__input" placeholder="E-mail" name="email">
+                        <input type="text" class="form-book__input" placeholder="Телефон" name="phoneNumber">
+                        <button  class="form_btn select-btn" id="form_btn" data-submit>
+                            Заказать звонок
+                        </button>
+                    </form>
+                </div>
+                <div class="modal-accept" id="modal-accept">
+                    <h3 class="modal-accept_title">
+                        Отлично! Мы скоро вам перезвоним.
+                    </h3>
+                    <button type="button" class="modal-accept_btn" id="modal-accept_btn">
+                        Закрыть
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- HEADER END -->
+    <!-- SECTION CONTACTS-MAIN START -->
+    <section class="contacts-main">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <h1 class="contacts-main__title">
+                        Контакты
+                    </h1>
+                    <ul class="breadcrumbs d-flex">
+                        <li class="breadcrumbs__item d-flex">
+                            <a href="index.html" class="breadcrumbs__link">
+                                Главная
+                            </a>
+                        </li>
+                        <li class="breadcrumbs__item d-flex">
+                            <span class="breadcrumbs__current">
+                                Контакты
+                            </span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- SECTION MAP START -->
+    <section class="map">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="map-wrapp">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d2249.0549309248463!2d37.532255418490074!3d55.68803273225425!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1z0JzQvtGB0LrQstCwIDMt0Y8g0YPQu9C40YbQsCDQodGC0YDQvtC40YLQtdC70LXQuSAyNQ!5e0!3m2!1sru!2sua!4v1648636323442!5m2!1sru!2sua" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="map-ggl"></iframe>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <ul class="info-list d-md-flex">
+                        <li class="info-list-item">
+                            <div class="info-list-item info-list-item__tel">
+                                <span class="info-title">
+                                    Телефон
+                                </span>
+                                <a href="tel:+74958235412" class="number info-number info-href">
+                                    +7 (495) 823-54-12
+                                </a>
+                        </li>
+                        <li class="info-list-item info-list-item__mail">
+                            <div class="email">
+                                <span class="info-title">
+                                    E-mail
+                                </span>
+                                <a href="mailto:hello@womazing.com" class="mail info-href info-mail">
+                                    hello@womazing.com
+                                </a>
+                        </li>
+                        <li class="info-list-item">
+                            <div class="info-list-item info-list-item__addr">
+                                <span class="info-title">
+                                    Адрес
+                                </span>
+                                <p class="addr-text info-href">
+                                    г. Москва, 3-я улица Строителей, 25
+                                </p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- SECTION MAP END -->
+    <!-- SECTION CONTACTS-FOR START -->
+    <section class="contacts-form">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5">
+                    <div class="form-wrapp">
+                        <h3 class="contacts-form-title">
+                            Напишите нам
+                        </h3>
+                        <form action="form/mail.php" class="form-book__2 form  form-val flex-column d-flex" id="form-book__2">
+                            <input type="text" class="form-book__input  form-book__input-second" placeholder="Имя" name="firstName">
+                            <input type="text" class="form-book__input  form-book__input-second" placeholder="E-mail" name="email">
+                            <input type="text" class="form-book__input form-book__input-second" placeholder="Телефон" name="phoneNumber">
+                            <textarea name="user_message" id="msg" cols="20" rows="10" placeholder="Сообщение" class="form-book__input form-book__input-message"></textarea>
+                            <button class="btn form_btn form_btn-second" id="form_btn-second" data-submit>
+                                Отправить
+                            </button>
+                            <span class="form-message" id="form-message">
+                                Сообщение успешно отправлено
+                            </span>
+                            <!-- <input type="text" class="form-book__input form-book__input-message" placeholder="Сообщение" name="typetext"> -->
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- SECTION CONTACTS-FORM END -->
+    <!-- FOOTER START -->
+    <footer class="footer" id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 col-lg-3">
+                    <a href="index.html" class="logo d-block mx-auto mx-lg-0"></a>
+                    <p class="info mx-auto mx-lg-0">
+                        © Все права защищены
+                        Политика конфиденциальности
+                        Публичная оферта
+                    </p>
+                </div>
+                <div class="col-md-6 col-lg-5">
+                    <nav class="menu-nav menu-nav_footer d-flex align-items-center">
+                        <ul class="menu menu-footer d-flex mx-auto justify-content-between" id="menu">
+                            <li class="menu-item">
+                                <a href="index.html" class="nav-bar__btn nav-bar__btn-footer" id="nav-bar__btn">
+                                    Главная
+                                </a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="shop.html" class="nav-bar__btn nav-bar__btn-footer" id="nav-bar__btn">
+                                    Магазин
+                                </a>
+                                <ul class="shop-category">
+                                    <li class="shop-category_item">
+                                        <a href="#" class="shop-category_item__btn" id="nav-bar__btn">
+                                            Пальто
+                                        </a>
+                                    </li>
+                                    <li class="shop-category_item">
+                                        <a href="#" class="shop-category_item__btn" id="nav-bar__btn">
+                                            Свитшоты
+                                        </a>
+                                    </li>
+                                    <li class="shop-category_item">
+                                        <a href="#" class="shop-category_item__btn" id="nav-bar__btn">
+                                            Кардиганы
+                                        </a>
+                                    </li>
+                                    <li class="shop-category_item">
+                                        <a href="#" class="shop-category_item__btn" id="nav-bar__btn">
+                                            Толстовки
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="menu-item">
+                                <a href="about.html" class="nav-bar__btn nav-bar__btn-footer">
+                                    О бренде
+                                </a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="contacts.html" class="nav-bar__btn active nav-bar__btn-footer">
+                                    Контакты
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+
+                </div>
+                <div class="col-md-3 col-lg-3 offset-lg-1">
+                    <div class="social">
+                        <a href="tel:+74958235412" class="number mx-auto mx-md-0 ms-md-auto number_footer">
+                            +7 (495) 823-54-12
+                        </a>
+                        <a href="mailto:hello@womazing.com" class="mail mx-auto mx-md-0 ms-lg-auto ">
+                            hello@womazing.com
+                        </a>
+                        <div class="social-media d-flex justify-content-center justify-content-md-end">
+                            <!-- noindex -->
+                            <a href="https://www.instagram.com/" class="media instagram" rel="nofollow noopener noreferrer" target="_blank"></a>
+                            <!-- /noindex -->
+                            <!-- noindex -->
+                            <a href="https://www.facebook.com/" class="media facebook" rel="nofollow noopener noreferrer" target="_blank"></a>
+                            <!-- /noindex -->
+                            <!-- noindex -->
+                            <a href="https://twitter.com/" class="media twitter" rel="nofollow noopener noreferrer" target="_blank"></a>
+                            <!-- /noindex -->
+                        </div>
+                        <img src="img/visa-mastercard.png" alt="mastercard" class="mastercard mx-auto mx-md-0 ms-md-auto">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- FOOTER END -->
+    <!-- JS JQUERY -->
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <!-- PLUGINS -->
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
